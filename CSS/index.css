@@ -13,10 +13,9 @@
 }
 
 .right {
-  display: flex;
-  float: right;
-  margin-left: 800px;
-
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
 }
 
 .right a {
@@ -58,8 +57,8 @@
     font-size: 20px;
     margin: 4px 2px;
     border-radius: 3px;
-  
   }
+
 .PictureOfMe img {
   display: flex;
   width: 100%;
@@ -124,8 +123,8 @@ h2 {
   font-family:"Barlow";
   font-weight: bold;
   padding: 50px;
-
 }
+
 /* footer section */
 
 .footer {
