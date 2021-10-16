@@ -1,0 +1,87 @@
+/* nav section */
+.nav {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  height: 60px;
+  font-size: 25px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.Logo img {
+    height: 40px;
+}
+
+.right {
+  display: flex;
+  float: right;
+  margin-left: 800px;
+
+}
+
+.right a {
+  padding: 10px;
+}
+
+/* About Me Section */
+
+.header h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 40px;
+  padding: 10px;
+  align-items: flex-start;
+  
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+ 
+}
+
+
+.text {
+  display: flex;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  height: 500px;
+  width: 500px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  }
+
+.button {
+color: black;
+}
+
+.PictureOfMe img {
+  display: flex;
+  width: 500px;
+  float: right;
+  margin-left: 100px;
+}
+
+/* footer section */
+
+.footer {
+background-color: darkgrey;
+padding: 20px 40px;
+font-family:"barlow";
+
+}
+
+.footer h1 {
+font-weight: bold;
+font-family: "barlow";
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer a {
+display: flex;
+align-items: center;
+justify-content: center;
+}
