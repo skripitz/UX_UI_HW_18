@@ -28,9 +28,7 @@
 .header h1 {
   font-family: 'Bungee', cursive;
   font-size: 40px;
-  padding: 10px;
   align-items: flex-start;
-  
 }
 
 .row {
@@ -39,7 +37,6 @@
   align-items: flex-start;
  
 }
-
 
 .text {
   display: flex;
@@ -80,7 +77,8 @@
   flex-direction: row;
   margin: 20px;
   align-items:center;
-  justify-content: center;  
+  justify-content: center; 
+
 }
 
 .uxresearch, .ui, .webdev {
@@ -91,14 +89,41 @@
   text-align: center;
   font-family: "Barlow";
   font-size: 20px;
-  margin: 4px 2px;
-  border-radius: 3px;}
+  margin: 5px 5px;
+  border-radius: 3px;
+}
+
 
 h2 {
   font-family: "Barlow";
-  font-size: 50px;
+  font-size: 40px;
 }
 
+/* My Projects */
+
+.allProjects {
+  display: block;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  font-family: "Barlow"l;
+  margin: 5px 5px;
+}
+
+.Project1, .Project2, .Project3, .Project4 {
+  background-color: gray;
+  width: auto;
+  height: 150px;
+  border-radius: 3px;
+}
+
+.allProjects h3{
+  font-size: 30px;
+  font-family:"Barlow";
+  font-weight: bold;
+  padding: 50px;
+
+}
 /* footer section */
 
 .footer {
@@ -119,6 +144,7 @@ justify-content: center;
 
 .footer a {
 display: flex;
-align-items: center;
+flex-direction: row;
 justify-content: center;
+padding: 5px;
 }
